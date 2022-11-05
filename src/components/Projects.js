@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -41,7 +41,7 @@ const Projects = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="cursor-pointer px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className="cursor-pointer w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
               </div>
