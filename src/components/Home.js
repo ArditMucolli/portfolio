@@ -18,10 +18,10 @@ const Home = () => {
             ever since the 1500s.
           </p>
           <div>
-            <button>
+            <button className="text-white w-fit px-3 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500">
               Portfolio
               <span>
-                <MdOutlineKeyboardArrowRight />
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </button>
           </div>
