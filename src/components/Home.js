@@ -11,12 +11,11 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Developer
+            Ardit Muçolli
           </h2>
           <p className="text-gray-400 py-4 max-w-md">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
+            I'm a Developer, and this is my portfolio with some of my work
+            below. If you want to contact me, please fill out the form below.
           </p>
           <div>
             <Link
