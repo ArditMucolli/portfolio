@@ -1,33 +1,7 @@
 import React from "react";
-import flower from "../assets/project/flower.jpeg";
-import todoList from "../assets/project/todoList.png";
-import reactWeather from "../assets/project/reactWeather.jpg";
+import { projectData } from "../data/projectData";
 
 const Projects = () => {
-  const project = [
-    {
-      id: 1,
-      name: "Flower app",
-      src: flower,
-      github: "https://github.com/artnushi/react-movies-app",
-      live: "",
-    },
-    {
-      id: 2,
-      name: "Todo",
-      src: todoList,
-      github: "https://github.com/ArditMucolli/todo-project",
-      live: "",
-    },
-    {
-      id: 3,
-      name: "Weather app",
-      src: reactWeather,
-      github: "https://github.com/ArditMucolli/weather-app",
-      live: "",
-    },
-  ];
-
   return (
     <div
       name="projects"
@@ -42,7 +16,7 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {project.map(({ id, src, name, github, live }) => (
+          {projectData.map(({ id, src, name, github, live }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
