@@ -1,79 +1,67 @@
-import html from "../assets/experience/html.png";
-import css from "../assets/experience/css.png";
-import javascript from "../assets/experience/javascript.png";
-import reactImage from "../assets/experience/react.png";
-import tailwind from "../assets/experience/tailwind.png";
-import bootstrap from "../assets/experience/bootstrap.png";
-import github from "../assets/experience/github.png";
-import python from "../assets/experience/python.png";
-import php from "../assets/experience/php.png";
-import mySql from "../assets/experience/mySql.png";
-import shopify from "../assets/experience/shopify.jpg";
-
 export const experienceData = [
   {
     id: 1,
-    src: html,
+    src: "/assets/experience/html.png",
     title: "HTML",
     style: "shadow-orange-500",
   },
   {
     id: 2,
-    src: css,
+    src: "/assets/experience/css.png",
     title: "CSS",
     style: "shadow-blue-500",
   },
   {
     id: 3,
-    src: javascript,
+    src: "/assets/experience/javascript.png",
     title: "JavaScript",
     style: "shadow-yellow-500",
   },
   {
     id: 4,
-    src: python,
+    src: "/assets/experience/python.png",
     title: "Python",
     style: "shadow-blue-500",
   },
   {
     id: 5,
-    src: php,
+    src: "/assets/experience/php.png",
     title: "PHP",
     style: "shadow-purple-500",
   },
   {
     id: 6,
-    src: reactImage,
+    src: "/assets/experience/react.png",
     title: "React",
     style: "shadow-blue-500",
   },
   {
     id: 7,
-    src: bootstrap,
+    src: "/assets/experience/bootstrap.png",
     title: "Bootstrap",
     style: "shadow-purple-500",
   },
   {
     id: 8,
-    src: tailwind,
+    src: "/assets/experience/tailwind.png",
     title: "Tailwind",
     style: "shadow-blue-500",
   },
   {
     id: 9,
-    src: mySql,
+    src: "/assets/experience/mySql.png",
     title: "MySql",
     style: "shadow-orange-500",
   },
   {
     id: 10,
-    src: github,
+    src: "/assets/experience/github.png",
     title: "GitHub",
     style: "shadow-gray-500",
   },
   {
     id: 11,
-    src: shopify,
+    src: "/assets/experience/shopify.jpg",
     title: "Shopify",
     style: "shadow-green-500",
   },
