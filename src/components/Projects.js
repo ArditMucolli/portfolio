@@ -21,9 +21,9 @@ const Projects = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 p-5"
               />
-              <span className="px-12 m-6 text-2xl font bold text-white tracking-wider ">
+              <span className=" px-12 m-6 text-2xl font bold text-white tracking-wider sm:text-1xl">
                 {name}
               </span>
               <div className="flex items-center justify-center">
