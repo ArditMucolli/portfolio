@@ -20,4 +20,11 @@ export const projectData = [
     github: "https://github.com/ArditMucolli/weather-app",
     live: "",
   },
+  {
+    id: 4,
+    name: "MealDB app",
+    src: "/assets/project/MealDB.jpeg",
+    github: "https://github.com/ArditMucolli/MealsDb",
+    live: "",
+  },
 ];
