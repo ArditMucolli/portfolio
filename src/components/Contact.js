@@ -1,5 +1,5 @@
 import React from "react";
-import { Formik, Form, Field } from "formik";
+import { Formik, Field } from "formik";
 import * as Yup from "yup";
 
 const ContactSchema = Yup.object().shape({
@@ -40,7 +40,7 @@ const Contact = () => {
             validationSchema={ContactSchema}
           >
             {({ errors, touched }) => (
-              <Form
+              <form
                 action="https://getform.io/f/3f6cfcbd-af1a-40eb-abc3-8367d0057145"
                 method="POST"
                 className="flex flex-col w-full md:w-1/2"
@@ -73,7 +73,7 @@ const Contact = () => {
                 <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
                   Let's talk
                 </button>
-              </Form>
+              </form>
             )}
           </Formik>
         </div>
