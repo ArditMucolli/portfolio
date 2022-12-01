@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-full text-white py-20 md:h-full "
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-full text-white py-20 md:h-full  "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -23,7 +23,7 @@ const Projects = () => {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105 p-5"
               />
-              <span className=" px-12 m-6 text-2xl font bold text-white tracking-wider sm:text-1xl">
+              <span className=" px-12 m-6 text-1xl font bold text-white tracking-wider">
                 {name}
               </span>
               <div className="flex items-center justify-center">
