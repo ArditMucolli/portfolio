@@ -40,11 +40,7 @@ const Contact = () => {
             validationSchema={ContactSchema}
           >
             {({ errors, touched }) => (
-              <Form
-                action="https://getform.io/f/3f6cfcbd-af1a-40eb-abc3-8367d0057145"
-                method="POST"
-                className="flex flex-col w-full md:w-1/2"
-              >
+              <Form className="flex flex-col w-full md:w-1/2">
                 <Field
                   name="name"
                   placeholder="Enter your full name"
