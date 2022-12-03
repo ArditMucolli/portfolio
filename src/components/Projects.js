@@ -24,7 +24,9 @@ const Projects = () => {
                 className="rounded-md duration-200 hover:scale-105 p-5"
               />
               <span className=" px-12 m-6 text-1xl font bold text-white tracking-wider">
-                {name}
+                <p className=" font-bold inline border-b-2 border-gray-500 ">
+                  {name}
+                </p>
               </span>
               <div className="flex items-center justify-center">
                 <a href={live} target="_blank" rel="noreferrer">
